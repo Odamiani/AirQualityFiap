@@ -22,5 +22,16 @@ data class Station(
     val name: String = "",
     val geo: List<Double> = emptyList(),
     val url: String = "",
-    val country: String = ""
 )
+
+data class ApiResponseByLocal(
+    val status: String = "",
+    val data: IndiceArByLocal = IndiceArByLocal()
+)
+
+data class IndiceArByLocal(
+    val idx: Int = 0,
+    val aqi: String = "",
+    val city: Station = Station()
+)
+
