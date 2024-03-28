@@ -53,6 +53,7 @@ fun FirstScreen(navController: NavController) {
 
             ) {
                 Spacer(modifier = Modifier.padding(top = 16.dp))
+
                 Image(
                     painter = painterResource(id = R.drawable.logoqair),
                     contentDescription = "lOGO",
@@ -66,8 +67,10 @@ fun FirstScreen(navController: NavController) {
                     text = "Q Air",
                     color = colorResource(id = R.color.white),
                     fontSize = 22.sp,
+                    fontFamily = Angkor
 
-                    )
+
+                )
 
             }
 
